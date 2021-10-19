@@ -9,10 +9,8 @@
         <li> <a href="#news"> All Posts </a> </li>
         <li> <a href="#contact"> Profile </a> </li>
     </ul>
-    <div class="searchbar">
-        <form action="/action_page.php">
-            <input type="text" placeholder="Search.." name="search">
-            <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
-  </div>
+    <form class="searchbar" action="/home.php" style="margin:auto;max-width:300px">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
 </div>
