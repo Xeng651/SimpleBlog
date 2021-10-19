@@ -1,5 +1,5 @@
 
-* { margin: 0px; padding: 0px; }
+* { margin: 0px; padding: 0px;}
 html { height: 100%; }
 body {
 	margin: 0;
@@ -35,19 +35,6 @@ form input:focus {
 	outline: none;
 }
 
-/* BUTTON DEFAULT */
-.btn {
-	color: white;
-	background: #4E6166;
-	text-align: center;
-	border: none;
-	border-radius: 5px;
-	display: block;
-	letter-spacing: .1em;
-	margin: 10px 0px;
-	padding: 13px 20px;
-	text-decoration: none;
-}
 
 /* NAVBAR */
 .navbar {
@@ -94,6 +81,38 @@ li {
 	width: 120px;
 	float: left;
 	background-color: beige;
+}
+
+.searchbar {
+	float: right;
+	position: relative;
+	right: 200px;
+	top: 10px;
+}
+
+.searchbar input[type=text] {
+	padding: 10px;
+	font-size: 17px;
+	border: 2px solid black;
+	float: left;
+	width: 80%;
+	background: #f1f1f1;
+}
+  
+.searchbar button {
+	width: 20%;
+	padding: 10px;
+	background: tan;
+	color: white;
+	font-size: 17px;
+	border: 2px solid black;
+	cursor: pointer;
+	position: relative;
+	top: 5px;
+}
+  
+.searchbar button:hover {
+	background: beige;
 }
 
 /* FOOTER */
