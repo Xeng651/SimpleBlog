@@ -46,6 +46,8 @@ form input:focus {
 }
 
 ul {
+	position:relative;
+	right: 10px;
 	padding: 0;
 	margin: 0 0 0 130px;
 	list-style: none;
@@ -69,7 +71,7 @@ li {
 
 .navbar a:hover {
 	color: black;
-    background-color: white;
+    background-color: beige;
 	transition: 0.5s;
 	text-transform: uppercase;
 }
