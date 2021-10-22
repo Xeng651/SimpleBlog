@@ -90,6 +90,7 @@ padding-left: 70px;
 .footer {
   	position: absolute;
   	bottom: 0;
+      right: 0%;
   	color: white;
   	background-color: green;
   	text-align: center;
