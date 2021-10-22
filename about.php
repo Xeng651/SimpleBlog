@@ -104,25 +104,43 @@ padding-left: 70px;
 
     </head>
     <body>
+         <!--
+            logo slot
+        -->
         <div class="logo">
         <img src="images/logo.png" alt="logo">
         </div>
+
+         <!--
+            sign-up button
+        -->
         <div class="goto_create">
-
                 <a href="create_login.php">Get Started</a>
-
-        </div><div class="goto_login">
+        </div>
+         <!--
+            login button
+        -->
+        <div class="goto_login">
             <a href="sign_in.php">Sign in</a>
         </div>
 
+         <!--
+            Big text above sign-up button
+        -->
         <div class="text">
             <h1 class="title_text">Create your own blog for free!</h1>
         </div>
 
+
+         <!--
+            small text under sign-up button
+        -->
         <div class="text2">
             <p class="deco_text">Get started by signing up now! Share your experience, news, or anything on your mind at all!</p>
         </div>
-
+        <!--
+            img slots
+        -->
         <div class="img_dec_zone">
             <img src="images/empty_img.jpg" alt="img_slot_1" class="img_1">
             <img src="images/empty_img.jpg" alt="img_slot_2" class="img_2">
