@@ -116,13 +116,13 @@ padding-left: 70px;
             sign-up button
         -->
         <div class="goto_create">
-                <a href="create_login.php">Get Started</a>
+                <a href="regiester.php">Get Started</a>
         </div>
          <!--
             login button
         -->
         <div class="goto_login">
-            <a href="sign_in.php">Sign in</a>
+            <a href="login.php">Sign in</a>
         </div>
 
          <!--
