@@ -45,7 +45,7 @@ input[type="submit"]{
         <table>
             
         <form action="" method="POST">
-            <tr><td colspan="2" class="table_title">Account Information</td></tr>
+            <tr><td colspan="2" class="table_title">Login Information</td></tr>
             <tr>
             <td class="lables">Email:</td>
             <td class="input"><input type="text" name="email" required></td>
