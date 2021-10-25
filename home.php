@@ -1,5 +1,6 @@
+
 <?php require_once("includes/head_section.php") ?>
-	<title>LifeBlog | Home </title>
+	<title> Simple Blog </title>
 </head>
 <body>
 	<div class="container">
@@ -20,11 +21,13 @@
 <!-- /footer -->
 
 <!-- 
-	
+
 source: 
 https://codewithawa.com/posts/how-to-create-a-blog-in-php-and-mysql-database 
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_search_button
 
-logo picture: 
+pictures: 
 https://favpng.com/png_view/naver-blog-naver-blog-logo-png/UVsAuYHZ
+https://www.pinclipart.com/pindetail/owJmT_magnifying-glass-icons-free-icons-in-rrze-magnifying/
 
 -->
