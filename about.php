@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<title> About Blog </title>
 
 <head>
     <style>
@@ -19,6 +20,7 @@
             position: relative;
             font-family: Arial;
             min-height: 100%;
+            width: 100%;
         }
 
         .logo img {
@@ -51,6 +53,7 @@
             background-color: forestgreen;
             box-sizing: border-box;
             text-align: center;
+            border-radius: 10px;
             font-size: 23px;
         }
 
@@ -73,14 +76,14 @@
             position: absolute;
             top: 17%;
             left: 28%;
-            color: #787276;
+            color: black;
         }
 
         .text2 {
             position: absolute;
             top: 300px;
             left: 29%;
-            border-bottom: 2px dotted grey;
+            border-bottom: 2px dotted black;
         }
 
         .title_text {
@@ -88,7 +91,7 @@
         }
 
         .deco_text {
-            color: #787276;
+            color: black;
             font-size: 17px;
         }
 
@@ -126,7 +129,7 @@
             background-color: green;
             text-align: center;
             width: 100%;
-            padding: 5px;
+            padding: 15px;
         }
     </style>
 </head>
