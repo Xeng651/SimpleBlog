@@ -163,4 +163,12 @@
 
 </body>
 
+<?php
+
+if ($_POST['action'] == "Cancel") {
+    header("Location: about.php");
+}
+
+?>
+
 </html>
