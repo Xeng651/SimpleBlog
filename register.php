@@ -1,4 +1,15 @@
 <!DOCTYPE html>
+
+<?php
+
+if (isset($_POST["action"])) {
+    if ($_POST['action'] == "Cancel") {
+        header("Location: about.php");
+    }
+}
+
+?>
+
 <html>
 <title> Registration Blog </title>
 
@@ -162,13 +173,5 @@
     <?php include("includes/footer.php") ?>
 
 </body>
-
-<?php
-
-if ($_POST['action'] == "Cancel") {
-    header("Location: about.php");
-}
-
-?>
 
 </html>
