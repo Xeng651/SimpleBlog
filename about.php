@@ -35,7 +35,6 @@
             position: absolute;
             top: 30%;
             left: 45%;
-
         }
 
         .goto_login {
