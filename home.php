@@ -1,5 +1,5 @@
 <?php require_once("includes/head_section.php") ?>
-<title> Simple Blog </title>
+<title> Home Page Blog </title>
 <style>
 	.addlink {
 		position: relative;
@@ -38,6 +38,7 @@
 		text-decoration: none;
 		padding-top: 10px;
 	}
+	
 </style>
 </head>
 
@@ -45,20 +46,22 @@
 	<div class="container">
 		<!-- navbar -->
 		<?php include("includes/navbar.php") ?>
-
+		
 		<div class="addlink">
 			<a href="newpost.php" class="addalink"> Add Post + </a>
 		</div>
 
 		<!-- Page content -->
 		<div class="content">
+			<table class="table_1">
 
-
+			</table>
 		</div>
 
-		<!-- footer -->
-		<?php include("includes/footer.php") ?>
+	</div>
 
+	<!-- footer -->
+	<?php include("includes/footer.php") ?>
 </body>
 
 </html>
