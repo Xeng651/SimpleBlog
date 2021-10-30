@@ -11,13 +11,13 @@ if (isset($_POST["action"])) {
 ?>
 
 <html>
-<title> Registration Blog </title>
+<title> Registration Page </title>
 
 <head>
     <style>
         * {
-            margin: 0px;
-            padding: 0px;
+            margin: 0;
+            padding: 0;
         }
 
         html {
@@ -25,21 +25,20 @@ if (isset($_POST["action"])) {
         }
 
         body {
+            min-height: 100vh;
             margin: 0;
             padding: 0;
             background-color: beige;
             position: relative;
             font-family: Arial;
-            min-height: 100%;
             overflow: hidden;
             width: 100%;
         }
 
-        .footer {
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            color: white;
+        footer {
+            position: sticky;
+            top: 100%;
+            color: whitesmoke;
             background-color: forestgreen;
             text-align: center;
             width: 100%;
@@ -74,15 +73,18 @@ if (isset($_POST["action"])) {
             color: whitesmoke;
         }
 
-        input[type="text"] {
-            width: 300px;
+        input[type="text"],
+        input[type="password"] {
+            width: 400px;
+            padding: 8px;
+            font-size: 18px;
         }
 
         .submit_1 {
             width: 100px;
             height: 50px;
             position: relative;
-            right: 20px;
+            right: 0px;
             top: 20px;
             background-color: forestgreen;
             cursor: pointer;
@@ -159,7 +161,11 @@ if (isset($_POST["action"])) {
                     <td class="input"><input type="text" name="email"></td>
                 </tr>
                 <tr>
-                    <td class="labels">Password</td>
+                    <td class="labels">Username:</td>
+                    <td class="input"><input type="text" name="username"></td>
+                </tr>
+                <tr>
+                    <td class="labels">Password:</td>
                     <td class="input"><input type="password" name="login_pass"></td>
                 </tr>
                 <tr class="submitrow">
