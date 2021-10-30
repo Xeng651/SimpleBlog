@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-<title> About Blog </title>
+<title> About Page Blog </title>
 
 <head>
     <style>
         * {
-            margin: 0px;
-            padding: 0px;
+            margin: 0;
+            padding: 0;
         }
 
         html {
@@ -14,12 +14,13 @@
         }
 
         body {
+            overflow-x: hidden;
+            min-height: 100vh;
             margin: 0;
             padding: 0;
             background-color: beige;
             position: relative;
             font-family: Arial;
-            min-height: 100%;
             width: 100%;
         }
 
@@ -55,6 +56,10 @@
             text-align: center;
             border-radius: 10px;
             font-size: 23px;
+        }
+
+        .goto:hover {
+            background-color: darkgreen;
         }
 
         a:visited {
@@ -121,12 +126,11 @@
             padding-left: 70px;
         }
 
-        .footer {
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            color: white;
-            background-color: green;
+        footer {
+            position: sticky;
+            top: 100%;
+            color: whitesmoke;
+            background-color: forestgreen;
             text-align: center;
             width: 100%;
             padding: 15px;
@@ -135,45 +139,33 @@
 </head>
 
 <body>
-    <!--
-            logo slot
-        -->
+    <!-- logo slot -->
     <div class="logo">
         <img src="images/logo.png" alt="logo">
     </div>
 
-    <!--
-            login button
-        -->
+    <!-- login button -->
     <div class="goto_login">
-        <a href="login.php"> Sign in </a>
+        <a href="login.php" class="goto"> Sign in </a>
     </div>
 
-    <!--
-            Big text above sign-up button
-        -->
+    <!-- Big text above sign-up button -->
     <div class="text">
         <h1 class="title_text">Create your own blog for free!</h1>
     </div>
 
-    <!--
-            sign-up button
-        -->
+    <!-- sign-up button -->
     <div class="goto_create">
-        <a href="register.php"> Get Started </a>
+        <a href="register.php" class="goto"> Get Started </a>
     </div>
 
-    <!--
-            small text under sign-up button
-        -->
+    <!-- small text under sign-up button-->
     <div class="text2">
         <br>
         <p class="deco_text">Get started by signing up now! Share your experience, news, or anything on your mind at all!</p>
     </div>
 
-    <!--
-        img slots
-     -->
+    <!-- img slots -->
     <div class="img_dec_zone">
         <img src="images/empty_img.jpg" alt="img_slot_1" class="img_1">
         <img src="images/empty_img.jpg" alt="img_slot_2" class="img_2">
