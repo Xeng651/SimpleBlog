@@ -56,5 +56,6 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_search_button
 pictures: 
 https://favpng.com/png_view/naver-blog-naver-blog-logo-png/UVsAuYHZ
 https://www.pinclipart.com/pindetail/owJmT_magnifying-glass-icons-free-icons-in-rrze-magnifying/
+https://static.wikia.nocookie.net/sanctuary/images/4/4d/Default-profile-image.jpg/revision/latest?cb=20210422050953
 
 -->
